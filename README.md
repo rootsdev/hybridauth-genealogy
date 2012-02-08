@@ -16,13 +16,12 @@ https://github.com/hybridauth/hybridauth
 ## About this implementation
 Until a pull is made to the primary branch, you will need to grab my fork of HybridAuth:
 https://github.com/dovy/hybridauth/
+A much needed function is contained in the Auth.php file.
 
 This implementation is for 3 of the major Genealogy providers. In addition I've created a custom example to springboard you into using the library.
 
 
 Simply follow the HybridAuth setup instructions. Please note the following caveats.
-
-- Each provider needs their own key/password/etc.
 - FamlySearch requires a key to identify your application
 - FamilySearch also requires you to contact them directly and give a specific URL endpoint
 - Geni requires a key & secret combo for authentication
@@ -31,6 +30,6 @@ Simply follow the HybridAuth setup instructions. Please note the following cavea
 - MyHeritage auth is domain specific. You must tell them the domain you intend to utilize with their serice.
 
 
-# To try out a live demo
-## Visit: https://ancestorsync.com/examples/gen_hub/
+
+## Try a Live Demo: https://ancestorsync.com/examples/gen_hub/
 None of your information is stored on the server except for sessions. Try it with security.
