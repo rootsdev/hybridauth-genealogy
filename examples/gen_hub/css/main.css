@@ -393,12 +393,12 @@ li:last-child .hentry, #content > .hentry {border: 0; margin: 0;}
 	
 	#profile {
 		clear: right;
-		margin-left: 120px;			
+		margin-left: 175px;			
 	}
 	#profile .pitem {		
 		list-style: none;
-		font-size: 1.2em;
-		padding: 5px; margin: 2px 0;
+		font-size: 1.15em;
+		padding: 5px; margin: 3px 0;
 		border: 1px solid #e8e8e8;
 		background: #eee;
 		white-space: pre;           /* CSS 2.0 */
@@ -413,9 +413,8 @@ li:last-child .hentry, #content > .hentry {border: 0; margin: 0;}
 	#profile .pitem:hover {		
 		background: #ffffcc;
 	}
-	img {
+	#profileImage {
 		float: left !important; 
-		margin-right: 20px; 
 		border: 3px solid #ccc; 
 		width: 150px !important; 
 		clear: right;	
